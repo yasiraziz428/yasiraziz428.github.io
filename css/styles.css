@@ -1,0 +1,41 @@
+/***************** Tag Selectors***********/
+h1 {
+  color: red;
+}
+
+h3 {
+  color: red;
+}
+
+body {
+  background-color: #D5EEBB;
+}
+/* pseudo class*/
+img:hover{
+  background-color: blue;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;  /*border-style is set to inset by default*/
+  width: 7%;
+  border-width: 12px;
+  border-color: black;
+}
+
+/***********Class Selectors************/
+/* can be same*/
+/* can be divided into two classes*/
+.my{
+  font-size: 15px;
+}
+.intro {
+  color: red;
+}
+
+/********** id selectors **************/
+/* cannot be same */
+
+#MyName{
+  color: red;
+}
